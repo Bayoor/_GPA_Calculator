@@ -5,16 +5,14 @@ This repository contains a simple Java program for calculating Grade Point Avera
 The code was developed as part of my assessment for the FirstBank Tech Academy 2.0 Program.
 
 ## Code Structure Overview
+This program follows an Object-Oriented Approach, organized in different files and also maintain a clean and readable code structure
 
-This program follows an Object-Oriented Approach, organized in different files.
 
 ### Files
-
-- CourseModel.java: Defines the CourseModel class representing a course with its attributes.
-- GPA.java: Contains the GPA class, which manages the GPA calculation and result display.
-- App.javas: The main entry point for the program, allowing users to input course details.
+- GPACalculatorApp.java: The main entry point for the program, allowing users to input course details.
+- GPALogic.java: Contains the GPALogic class, that manages the GPA calculations and  displays result to the course in form of a table/tabular form.
+- CourseModel.java: Defines the CourseModel class that represent a course with its attributes.
 
 ### Formular used:
-
-`Quality point = course unit * grade unit`
-`GPA = total quality point / total grade unit`
+-Quality point = course unit * grade unit.
+-GPA = total quality point / total grade unit.
